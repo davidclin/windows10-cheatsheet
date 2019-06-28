@@ -52,7 +52,7 @@ Disable Transparency effects
 - Delete programs you don't use
 - Use a high performance power plan
 
-# Installing and Using Chocolatey
+# Installing and Using Chocolatey (with PowerShell)
 - Blog: https://jcutrer.com/windows/install-chocolatey-choco-windows10
 
 <pre>
