@@ -52,21 +52,24 @@ Disable Transparency effects
 - Delete programs you don't use
 - Use a high performance power plan
 
-# Installing Chocolatey (package manager for Windows 10)
-- Source: https://jcutrer.com/windows/install-chocolatey-choco-windows10
-- Start --> type `powershell`
-- Right-click Windows Powershell and choose "Run as Administrator"
-- Paste the following:
+# Installing and Using Chocolatey
+- Blog: https://jcutrer.com/windows/install-chocolatey-choco-windows10
+
 <pre>
-Set-ExecutionPolicy Bypass -Scope Process -Force; `
-  iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-</pre>
-- Answer Yes if prompted
-- Close and repen an elevated PowerShell window to start using choco
+Start --> type `powershell`
+Right-click Windows Powershell and choose "Run as Administrator"
+Paste the following:
+
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+Answer Yes if prompted
+Close and repen an elevated PowerShell window to start using choco
 
 Choco is now installed and can be used from a PowerShell prompt or a regular command prompt windows to install many different software packages. Whichever one you use, just make sure you run choco from an elevated powershell/command prompt window.
+</pre>
 
-Useful commands
+## Useful Choco commands
+<pre>
 choco upgrade chocolatey
 choco search [keyword] -v
 choco install [packagename]
@@ -74,13 +77,17 @@ choco upgrade [packagename]
 choco uninstall [packagename]
 choco info [packagename]
 choco list --local-only
+</pre>
 
-Advanced commands
+## Advanced Choco commands
+<pre>
 choco install [packagename] --yes
 choco seaerch [packagename] --exact --verbose
 choco search [packagename] --order-by-popularity
+</pre>
 
-Other Useful Software to Install with Choco
+## Other Useful Software to Install with Choco
+<pre>
 choco install chrome 		– Google Chrome Browser
 choco install git 		– Git cli Client for Windows
 choco install github 		– Official GUI-Based Git Client
@@ -91,4 +98,4 @@ choco install putty 		– An open-source SSH client
 choco install keepass 		– An open-source Password Manager
 choco install greenshot 	– My favorite screenshot utility for Windows
 choco install imagemagick.app 	– A suite of cli tools for working with and converting images
-
+</pre>
