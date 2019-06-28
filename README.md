@@ -20,7 +20,6 @@ This is my short list of Windows 10 tips and tricks to speed performance.
 # Fix blurry text
 Start --> Type 'Performance' --> Adjust the appearance and performance of windows --> Visual Effects --> Disable everything except "Smooth edges of screen fonts
 
-
 # Speedup Chrome
 Disable Chrome extensions you're not using
 
@@ -52,3 +51,44 @@ Disable Transparency effects
 	But keep the "Windows Defender notification icon"
 - Delete programs you don't use
 - Use a high performance power plan
+
+# Installing Chocolatey (package manager for Windows 10)
+- Source: https://jcutrer.com/windows/install-chocolatey-choco-windows10
+- Start --> type `powershell`
+- Right-click Windows Powershell and choose "Run as Administrator"
+- Paste the following:
+<pre>
+Set-ExecutionPolicy Bypass -Scope Process -Force; `
+  iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+</pre>
+- Answer Yes if prompted
+- Close and repen an elevated PowerShell window to start using choco
+
+Choco is now installed and can be used from a PowerShell prompt or a regular command prompt windows to install many different software packages. Whichever one you use, just make sure you run choco from an elevated powershell/command prompt window.
+
+Useful commands
+choco upgrade chocolatey
+choco search [keyword] -v
+choco install [packagename]
+choco upgrade [packagename]
+choco uninstall [packagename]
+choco info [packagename]
+choco list --local-only
+
+Advanced commands
+choco install [packagename] --yes
+choco seaerch [packagename] --exact --verbose
+choco search [packagename] --order-by-popularity
+
+Other Useful Software to Install with Choco
+choco install chrome 		– Google Chrome Browser
+choco install git 		– Git cli Client for Windows
+choco install github 		– Official GUI-Based Git Client
+choco install 7zip 		– Archive utility to compress/uncompress zip, tar, gz, bzip and other formats.
+choco install SublimeText3 	– An execellent markdown & source code editor.
+choco install vlc 		– An open-source media player
+choco install putty 		– An open-source SSH client
+choco install keepass 		– An open-source Password Manager
+choco install greenshot 	– My favorite screenshot utility for Windows
+choco install imagemagick.app 	– A suite of cli tools for working with and converting images
+
