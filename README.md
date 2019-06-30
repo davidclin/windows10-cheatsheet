@@ -51,6 +51,7 @@ Disable Transparency effects
 	But keep the "Windows Defender notification icon"
 - Delete programs you don't use
 - Use a high performance power plan
+- Disable Startup apps using CCleaner. CCleaner shows more apps, services, and scheduled tasks that get started during startup In my case, Adobe was slowing things down significantly. Your situation your differ but the idea is to disable apps and services you don't need running during Startup.
 
 # Installing and Using Chocolatey (with PowerShell)
 - Blog: https://jcutrer.com/windows/install-chocolatey-choco-windows10
