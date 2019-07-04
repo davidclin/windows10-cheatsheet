@@ -29,6 +29,11 @@ Select Taskbar settings
 Select Color
 Disable Transparency effects
 
+# Speedup Start Menu 
+Disable Cortana from GUI and registry
+Regedit --> HKEY_CURRENT_USER --> Desktop --> MenuShowDelay 20  (400 is default)
+Task Manager --> Startup tab --> Disable all apps (especially `Windows Defender notification icon in startup`)
+Rebuild your index (last resort)
 
 # Speedup Windows 10
 - Upgrade memory
