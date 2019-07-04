@@ -13,29 +13,36 @@ This is my short list of Windows 10 tips and tricks to speed performance.
 
 # Cool tricks
 - Add Desktop and URL Address field to taskbar
-	<pre>
+  <pre>
   Right click --> Toolbars --> Desktop & Address
-	</pre>
+  </pre>
   
 # Fix blurry text
+<pre>
 Start --> Type 'Performance' --> Adjust the appearance and performance of windows --> Visual Effects --> Disable everything except "Smooth edges of screen fonts
+</pre>
 
 # Speedup Chrome
 Disable Chrome extensions you're not using
 
 # Speedup Taskbar
+<pre>
 Right click taskbar
 Select Taskbar settings
 Select Color
 Disable Transparency effects
+</pre>
 
 # Speedup Start Menu 
-Disable Cortana from GUI and registry
-Regedit --> HKEY_CURRENT_USER --> Desktop --> MenuShowDelay 20  (400 is default)
-Task Manager --> Startup tab --> Disable all apps (especially `Windows Defender notification icon in startup`)
-Rebuild your index (last resort)
+<pre>
+Disable Cortana from GUI and registry<br>
+Regedit --> HKEY_CURRENT_USER --> Desktop --> MenuShowDelay 20  (400 is default)<br>
+Task Manager --> Startup tab --> Disable all apps (especially `Windows Defender notification icon in startup`)<br>
+Rebuild your index (last resort)<br>
+</pre>
 
 # Speedup Windows 10
+<pre>
 - Upgrade memory
 - Update outdated drivers (especially the video driver)
 - Run indexing troubleshooter
@@ -57,6 +64,7 @@ Rebuild your index (last resort)
 - Delete programs you don't use
 - Use a high performance power plan
 - Disable Startup apps using CCleaner. CCleaner shows more apps, services, and scheduled tasks that get started during startup In my case, Adobe was slowing things down significantly. Your situation your differ but the idea is to disable apps and services you don't need running during Startup.
+</pre>
 
 # Installing and Using Chocolatey (with PowerShell)
 - Blog: https://jcutrer.com/windows/install-chocolatey-choco-windows10
