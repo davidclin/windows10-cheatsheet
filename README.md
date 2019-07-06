@@ -104,17 +104,17 @@ choco search [packagename] --order-by-popularity
 <pre>
 choco install python3 --pre     - Python 3
 choco upgrade python3 --pre     - Python 3 upgrade
-choco install vim               - Vim
-choco install chrome 		– Google Chrome Browser
-choco install git 		– Git cli Client for Windows
-choco install github 		– Official GUI-Based Git Client
-choco install 7zip 		– Archive utility to compress/uncompress zip, tar, gz, bzip and other formats.
-choco install SublimeText3 	– An execellent markdown & source code editor.
-choco install vlc 		– An open-source media player
-choco install putty 		– An open-source SSH client
-choco install keepass 		– An open-source Password Manager
-choco install greenshot 	– My favorite screenshot utility for Windows
-choco install imagemagick.app 	– A suite of cli tools for working with and converting images
+choco install -y vim               - Vim
+choco install -y chrome 		– Google Chrome Browser
+choco install -y git 		– Git cli Client for Windows
+choco install -y github 		– Official GUI-Based Git Client
+choco install -y 7zip 		– Archive utility to compress/uncompress zip, tar, gz, bzip and other formats.
+choco install -y SublimeText3 	– An execellent markdown & source code editor.
+choco install -y vlc 		– An open-source media player
+choco install -y putty 		– An open-source SSH client
+choco install -y keepass 		– An open-source Password Manager
+choco install -y greenshot 	– My favorite screenshot utility for Windows
+choco install -y imagemagick.app 	– A suite of cli tools for working with and converting images
 </pre>
 
 # Chocolatey Packages
