@@ -117,5 +117,5 @@ choco install greenshot 	– My favorite screenshot utility for Windows
 choco install imagemagick.app 	– A suite of cli tools for working with and converting images
 </pre>
 
-# Chocolately Packages
+# Chocolatey Packages
 [Check out packages here](https://chocolatey.org/packages)
