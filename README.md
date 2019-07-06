@@ -104,6 +104,7 @@ choco search [packagename] --order-by-popularity
 <pre>
 choco install python3 --pre     - Python 3
 choco upgrade python3 --pre     - Python 3 upgrade
+choco install vim               - Vim
 choco install chrome 		– Google Chrome Browser
 choco install git 		– Git cli Client for Windows
 choco install github 		– Official GUI-Based Git Client
