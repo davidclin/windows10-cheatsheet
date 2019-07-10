@@ -66,7 +66,25 @@ Rebuild your index (last resort)<br>
 - Disable Startup apps using CCleaner. CCleaner shows more apps, services, and scheduled tasks that get started during startup In my case, Adobe was slowing things down significantly. Your situation your differ but the idea is to disable apps and services you don't need running during Startup.
 </pre>
 
-# Installing and Using Chocolatey (with PowerShell)
+# Windows Console Window
+<pre>
+- Issue `prompt` to change the prompt
+- Issue `title` to change the title bar
+- Change the registry to autorun commnands in the console window all the time; this allows things like prompt and title settings to persist after closing the console window
+- F7 will display history of commands you've entered
+- [command] | clip will send output to the Clipboard
+- [command 1] && [command 2] where && will run [command 2] if [command 1] succeeds
+- [command 1] &  [command 2] where  & will always run [command 2]
+- [command 1] || [command 2] where || will run [command 2] if [command 1] fails
+- You can drag and drop files/folders into the command prompt and it will automatically type the path for you
+- From file explorer, you can type `cmd` in the path field and a console will open in the specified path
+- You can right-click and `Mark` text then paste what was marked
+- If you click the upper left corner image and select `Default`, you can change the console window's default settings (e.g. font size)
+- If you click the upper left corner image and select `Properties`, you can change the console window's present settings
+- [command] /? provides context help on command issued
+</pre>
+
+# Windows Package Management - Installing and Using Chocolatey (with PowerShell)
 - Blog: https://jcutrer.com/windows/install-chocolatey-choco-windows10
 
 <pre>
