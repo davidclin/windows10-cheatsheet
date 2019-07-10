@@ -66,7 +66,7 @@ Rebuild your index (last resort)<br>
 - Disable Startup apps using CCleaner. CCleaner shows more apps, services, and scheduled tasks that get started during startup In my case, Adobe was slowing things down significantly. Your situation your differ but the idea is to disable apps and services you don't need running during Startup.
 </pre>
 
-# Windows Console Window
+# Console Window
 <pre>
 - Issue `prompt` to change the prompt
 - Issue `title` to change the title bar
@@ -84,7 +84,8 @@ Rebuild your index (last resort)<br>
 - [command] /? provides context help on command issued
 </pre>
 
-# Windows Package Management - Installing and Using Chocolatey (with PowerShell)
+# Package Management 
+Installing and Using Chocolatey (with PowerShell)
 - Blog: https://jcutrer.com/windows/install-chocolatey-choco-windows10
 
 <pre>
@@ -120,19 +121,19 @@ choco search [packagename] --order-by-popularity
 
 ## Other Useful Software to Install with Choco
 <pre>
-choco install python3 --pre     - Python 3
-choco upgrade python3 --pre     - Python 3 upgrade
-choco install -y vim               - Vim
-choco install -y chrome 		– Google Chrome Browser
-choco install -y git 		– Git cli Client for Windows
+choco install python3 --pre     	- Python 3
+choco upgrade python3 --pre     	- Python 3 upgrade
+choco install -y vim            	- Vim
+choco install -y chrome 		- Google Chrome Browser
+choco install -y git 			– Git cli Client for Windows
 choco install -y github 		– Official GUI-Based Git Client
-choco install -y 7zip 		– Archive utility to compress/uncompress zip, tar, gz, bzip and other formats.
-choco install -y SublimeText3 	– An execellent markdown & source code editor.
-choco install -y vlc 		– An open-source media player
-choco install -y putty 		– An open-source SSH client
+choco install -y 7zip 			– Archive utility to compress/uncompress zip, tar, gz, bzip and other formats.
+choco install -y SublimeText3 		– An execellent markdown & source code editor.
+choco install -y vlc 			– An open-source media player
+choco install -y putty 			– An open-source SSH client
 choco install -y keepass 		– An open-source Password Manager
-choco install -y greenshot 	– My favorite screenshot utility for Windows
-choco install -y imagemagick.app 	– A suite of cli tools for working with and converting images
+choco install -y greenshot 		– My favorite screenshot utility for Windows
+choco install -y imagemagick.app	– A suite of cli tools for working with and converting images
 </pre>
 
 # Chocolatey Packages
