@@ -104,20 +104,20 @@ Choco is now installed and can be used from a PowerShell prompt or a regular com
 
 ## Useful Choco commands
 <pre>
-choco upgrade chocolatey
-choco search [keyword] -v
-choco install [packagename]
-choco upgrade [packagename]
+choco upgrade   chocolatey
+choco search    [keyword] -v
+choco install   [packagename]
+choco upgrade   [packagename]
 choco uninstall [packagename]
-choco info [packagename]
-choco list --local-only
+choco info      [packagename]
+choco list      --local-only
 </pre>
 
 ## Advanced Choco commands
 <pre>
 choco install [packagename] --yes
 choco seaerch [packagename] --exact --verbose
-choco search [packagename] --order-by-popularity
+choco search  [packagename] --order-by-popularity
 </pre>
 
 ## Other Useful Software to Install with Choco
