@@ -138,4 +138,4 @@ choco install -y imagemagick.app	– A suite of cli tools for working with and c
 </pre>
 
 # Chocolatey Packages
-[Check out packages here](https://chocolatey.org/packages)
+[Packages](https://chocolatey.org/packages)
