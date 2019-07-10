@@ -66,22 +66,34 @@ Rebuild your index (last resort)<br>
 - Disable Startup apps using CCleaner. CCleaner shows more apps, services, and scheduled tasks that get started during startup In my case, Adobe was slowing things down significantly. Your situation your differ but the idea is to disable apps and services you don't need running during Startup.
 </pre>
 
-# Console Window
+# Command Prompt
 <pre>
 - Issue `prompt` to change the prompt
 - Issue `title` to change the title bar
-- Change the registry to autorun commnands in the console window all the time; this allows things like prompt and title settings to persist after closing the console window
-  Regedit --> Computer --> HKEY_CURRENT_USER -->SOFTWARE--> Microsoft --> Command Processor --> [Create New String Value: Autorun] --> Right-click `Autorun`--> Modify --> [Value Data: prompt $T $B $P$G && cd desktop] 
+- Change the registry to autorun commnands in the command prompt window all the time; 
+  this allows things like prompt and title settings to persist after closing the command prompt window
+  
+  Open Regedit 
+  --> Computer 
+  --> HKEY_CURRENT_USER 
+  --> SOFTWARE
+  --> Microsoft 
+  --> Command Processor 
+  --> [Create New String Value: Autorun] 
+  --> Right-click `Autorun`
+  --> Modify 
+  --> [Value Data: prompt $T $B $P$G && cd desktop]
+  
 - F7 will display history of commands you've entered
 - [command] | clip will send output to the Clipboard
 - [command 1] && [command 2] where && will run [command 2] if [command 1] succeeds
 - [command 1] &  [command 2] where  & will always run [command 2]
 - [command 1] || [command 2] where || will run [command 2] if [command 1] fails
 - You can drag and drop files/folders into the command prompt and it will automatically type the path for you
-- From file explorer, you can type `cmd` in the path field and a console will open in the specified path
+- From file explorer, you can type `cmd` in the path field and a command prompt will open in the specified path
 - You can right-click and `Mark` text then paste what was marked
-- If you click the upper left corner image and select `Default`, you can change the console window's default settings (e.g. font size)
-- If you click the upper left corner image and select `Properties`, you can change the console window's present settings
+- If you click the upper left corner image and select `Default`, you can change the command prompt window's default settings (e.g. font size)
+- If you click the upper left corner image and select `Properties`, you can change the command prompt window's present settings
 - [command] /? provides context help on command issued
 </pre>
 
@@ -90,14 +102,18 @@ Installing and Using Chocolatey (with PowerShell)
 - Blog: https://jcutrer.com/windows/install-chocolatey-choco-windows10
 
 <pre>
-Start --> type `powershell`
-Right-click Windows Powershell and choose "Run as Administrator"
+Start 
+--> Type `powershell`
+--> Right-click Windows Powershell 
+--> Choose "Run as Administrator"
+
 Paste the following:
-
+===================================================================
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+===================================================================
 
-Answer Yes if prompted
-Close and repen an elevated PowerShell window to start using choco
+--> Answer Yes if prompted
+--> Close and reopen an elevated PowerShell window to start using choco
 
 Choco is now installed and can be used from a PowerShell prompt or a regular command prompt windows to install many different software packages. Whichever one you use, just make sure you run choco from an elevated powershell/command prompt window.
 </pre>
