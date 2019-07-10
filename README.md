@@ -71,6 +71,7 @@ Rebuild your index (last resort)<br>
 - Issue `prompt` to change the prompt
 - Issue `title` to change the title bar
 - Change the registry to autorun commnands in the console window all the time; this allows things like prompt and title settings to persist after closing the console window
+  Regedit --> Computer --> HKEY_CURRENT_USER -->SOFTWARE--> Microsoft --> Command Processor --> [Create New String Value: Autorun] --> Right-click `Autorun`--> Modify --> [Value Data: prompt $T $B $P$G && cd desktop] 
 - F7 will display history of commands you've entered
 - [command] | clip will send output to the Clipboard
 - [command 1] && [command 2] where && will run [command 2] if [command 1] succeeds
