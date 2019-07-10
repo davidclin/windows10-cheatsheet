@@ -82,7 +82,7 @@ Rebuild your index (last resort)<br>
   --> [Create New String Value: Autorun] 
   --> Right-click `Autorun`
   --> Modify 
-  --> [Value Data: prompt $T $B $P$G && cd desktop && title David Lin's Command Prompt]
+  --> [Value Data: prompt $D $B $T $B $P$G && cd desktop && title David Lin's Command Prompt]
   
 - F7 will display history of commands you've entered
 - [command] | clip will send output to the Clipboard
