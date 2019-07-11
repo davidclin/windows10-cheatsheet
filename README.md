@@ -25,6 +25,9 @@ Start --> Type 'Performance' --> Adjust the appearance and performance of window
 # Speedup Chrome
 Disable Chrome extensions you're not using
 
+# Check for Harmful Software in Chrome Settings
+Chrome --> Settings --> Advanced --> Reset and Cleanup --> Cleanup computer --> Find (This may take awhile)
+
 # Speedup Taskbar
 <pre>
 Right click taskbar
