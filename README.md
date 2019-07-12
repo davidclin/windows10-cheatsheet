@@ -148,12 +148,13 @@ choco install -y chrome 		- Google Chrome Browser
 choco install -y git 			– Git cli Client for Windows
 choco install -y github 		– Official GUI-Based Git Client
 choco install -y 7zip 			– Archive utility to compress/uncompress zip, tar, gz, bzip and other formats.
-choco install -y SublimeText3 		– An execellent markdown & source code editor.
+choco install -y SublimeText3 		– An excellent markdown & source code editor.
 choco install -y vlc 			– An open-source media player
 choco install -y putty 			– An open-source SSH client
 choco install -y keepass 		– An open-source Password Manager
 choco install -y greenshot 		– My favorite screenshot utility for Windows
 choco install -y imagemagick.app	– A suite of cli tools for working with and converting images
+choco install -y gitcam                 - A cool tool that makes screen recordings super easy
 </pre>
 
 # Chocolatey Packages
