@@ -17,6 +17,13 @@ This is my short list of Windows 10 tips and tricks to speed performance.
   Right click --> Toolbars --> Desktop & Address
   </pre>
   
+# Windows 10 God Mode
+Create a new folder and name the folder:
+<p>
+<pre>
+GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
+</pre>
+
 # Fix blurry text
 <pre>
 Start --> Type 'Performance' --> Adjust the appearance and performance of windows --> Visual Effects --> Disable everything except "Smooth edges of screen fonts
