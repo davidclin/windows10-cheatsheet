@@ -162,6 +162,8 @@ choco install -y keepass 		– An open-source Password Manager
 choco install -y greenshot 		– My favorite screenshot utility for Windows
 choco install -y imagemagick.app	– A suite of cli tools for working with and converting images
 choco install -y gitcam                 - A cool tool that makes screen recordings super easy
+choco install -y youtube-dl             - YouTube to MP3 converter
+choco install -y ffmpeg                 - Required for youtube-dl
 </pre>
 
 # Chocolatey Packages
