@@ -157,6 +157,7 @@ choco install -y treesizefree		- TreeSize Free
 choco install -y ccleaner		- CCleaner
 choco install -y malwarebytes		- Malwarebytes Anti-Malware
 choco install -y gimp			- Gimp
+choco install -y virtualbox
 choco install -y chrome 		- Google Chrome Browser
 choco install -y git 			– Git cli Client for Windows
 choco install -y github 		– Official GUI-Based Git Client
