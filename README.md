@@ -10,6 +10,7 @@ This is my short list of Windows 10 tips and tricks to speed performance.
 	This includes virus scanning
   </pre>
 - Run CCleaner
+- Run Malwarebytes
 
 # Cool tricks
 - Add Desktop and URL Address field to taskbar
@@ -152,6 +153,7 @@ choco install python3 --pre     	- Python 3
 choco upgrade python3 --pre     	- Python 3 upgrade
 choco install -y vim            	- Vim
 choco install -y ccleaner		- CCleaner
+choco install -y malwarebytes		- Malwarebytes Anti-Malware
 choco install -y chrome 		- Google Chrome Browser
 choco install -y git 			– Git cli Client for Windows
 choco install -y github 		– Official GUI-Based Git Client
