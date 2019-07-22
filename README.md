@@ -152,8 +152,11 @@ choco search  [packagename] --order-by-popularity
 choco install python3 --pre     	- Python 3
 choco upgrade python3 --pre     	- Python 3 upgrade
 choco install -y vim            	- Vim
+choco install -y keepass.install	- Keepass
+choco install -y treesizefree		- TreeSize Free
 choco install -y ccleaner		- CCleaner
 choco install -y malwarebytes		- Malwarebytes Anti-Malware
+choco install -y gimp			- Gimp
 choco install -y chrome 		- Google Chrome Browser
 choco install -y git 			– Git cli Client for Windows
 choco install -y github 		– Official GUI-Based Git Client
