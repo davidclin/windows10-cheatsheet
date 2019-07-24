@@ -171,6 +171,7 @@ choco install -y imagemagick.app	– A suite of cli tools for working with and c
 choco install -y gitcam                 - A cool tool that makes screen recordings super easy
 choco install -y youtube-dl             - YouTube to MP3 converter
 choco install -y ffmpeg                 - Required for youtube-dl
+choco install -y heidisql		- SQL client
 </pre>
 
 # Chocolatey Packages
