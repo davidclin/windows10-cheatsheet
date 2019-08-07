@@ -2,6 +2,7 @@
 This is my short list of Windows 10 tips and tricks to speed performance.
 
 # Good Hygiene
+- Check for updates
 - Clean system disk space 
   <pre>
   This is especialy applicable after a Windows update
