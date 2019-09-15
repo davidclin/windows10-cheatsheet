@@ -35,6 +35,11 @@ Down the msi file and install.
 After the install, you can periodically check for updates from the app itself.
 </pre>
 
+# Sharp Keys
+Use this application to quickly customize your keys. For example, replacing the CAPS LOCK with cntl key.
+<pre>
+Install the msi from https://github.com/randyrants/sharpkeys
+</pre>
 
 # Fix blurry text
 <pre>
