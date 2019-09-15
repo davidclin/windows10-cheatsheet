@@ -41,6 +41,13 @@ Use this application to quickly customize your keys. For example, replacing the 
 Install the msi from https://github.com/randyrants/sharpkeys
 </pre>
 
+# X-Mouse Controls
+Use this application to cause window where mouse hovers to become active but not bring window forward
+<pre>
+Download and install the application as Administrator from https://joelpurra.com/projects/X-Mouse_Controls/
+Execute the file as Administrator then apply "Activate window tracking" 
+</pre>
+
 # Fix blurry text
 <pre>
 Start --> Type 'Performance' --> Adjust the appearance and performance of windows --> Visual Effects --> Disable everything except "Smooth edges of screen fonts
