@@ -38,7 +38,7 @@ After the install, you can periodically check for updates from the app itself.
 # Sharp Keys
 Use this application to quickly customize your keys. For example, replacing the CAPS LOCK with cntl key.
 <pre>
-Install the msi from https://github.com/randyrants/sharpkeys
+Install the msi from the (GitHub reposiotory)[https://github.com/randyrants/sharpkeys]
 </pre>
 
 # Fix blurry text
