@@ -13,6 +13,11 @@ This is my short list of Windows 10 tips and tricks to speed performance.
 - Run CCleaner
 - Run Windows Defender Anti-virus scan (offline mode takes ~20 minutes)
 - Run Malwarebytes
+- Check Google Chrome version and update to latest version
+  <pre>
+  chrome://version/
+  chrome://settings/help/
+  </pre>
 
 # Cool tricks
 - Add Desktop and URL Address field to taskbar
