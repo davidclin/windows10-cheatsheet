@@ -35,8 +35,7 @@ GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
 # Power Toys
 At time of this writing, supported features include FancyZones and Shortcut Guide
 <pre>
-Install from github.com/microsoft (search for PowerToys)
-Down the msi file and install.
+Install using choco
 After the install, you can periodically check for updates from the app itself.
 </pre>
 
@@ -55,7 +54,11 @@ Execute the file as Administrator then apply "Activate window tracking"
 
 # Fix blurry text
 <pre>
-Start --> Type 'Performance' --> Adjust the appearance and performance of windows --> Visual Effects --> Disable everything except "Smooth edges of screen fonts
+Start --> Type 'Performance' --> Adjust the appearance and performance of windows 
+      --> Visual Effects Tab --> Custom radio button 
+      --> Disable everything except "Smooth edges of screen fonts"
+
+Tip: You may want to also keep Enable peek (Win+,)
 </pre>
 
 # Speedup Chrome
