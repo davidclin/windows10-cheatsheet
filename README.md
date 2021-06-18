@@ -83,6 +83,12 @@ Task Manager --> Startup tab --> Disable all apps (especially `Windows Defender 
 Rebuild your index (last resort)<br>
 </pre>
 
+# How to restart monitor drivers in case one of your screens is blacked out after waking up Win10 from Sleep
+<pre>
+Cntl+Win+Shift+b
+Hit any of the buttons on the monitor that is blacked out
+</pre>
+
 # Speedup Windows 10
 <pre>
 - Upgrade memory
