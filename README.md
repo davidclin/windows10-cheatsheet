@@ -45,7 +45,9 @@ Use this application to quickly customize your keys. For example, replacing the 
 Install the msi from https://github.com/randyrants/sharpkeys
 </pre>
 
-# X-Mouse Controls
+# X-Mouse Controls (Deprecated)
+UPDATE: User PowerToys to remap your keys!
+
 Use this application to cause window where mouse hovers to become active but not bring window forward
 <pre>
 Download and install the application as Administrator from https://joelpurra.com/projects/X-Mouse_Controls/
