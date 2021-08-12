@@ -182,7 +182,7 @@ choco list      --local-only
 ## Advanced Choco commands
 <pre>
 choco install [packagename] --yes
-choco seaerch [packagename] --exact --verbose
+choco search [packagename] --exact --verbose
 choco search  [packagename] --order-by-popularity
 </pre>
 
