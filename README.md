@@ -66,7 +66,7 @@ Tip: You may want to also keep Enable peek (Win+,)
 # Exporting/Importing Putty Settings and Sessions
 <pre>
 - Open command prompt as an Administrator
-- regedit /e "%USERPROFILE%\Desktop\putty.reg" HKEY_CURRENT_USER\Software\SimonTatham
+- regedit /e "%USERPROFILE%\Desktop\putty.reg" HKEY_LOCAL_MACHINE\Software\SimonTatham
 - A putty.reg file should appear on your Desktop
 - Copy to your new PC
 - Double-click the .reg file and it should get imported!
