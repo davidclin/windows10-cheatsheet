@@ -63,6 +63,15 @@ Start --> Type 'Performance' --> Adjust the appearance and performance of window
 Tip: You may want to also keep Enable peek (Win+,)
 </pre>
 
+# Exporting/Importing Putty Settings and Sessions
+<pre>
+- Open command prompt as an Administrator
+- regedit /e "%USERPROFILE%\Desktop\putty.reg" HKEY_CURRENT_USER\Software\SimonTatham
+- A putty.reg file should appear on your Desktop
+- Copy to your new PC
+- Double-click the .reg file and it should get imported!
+</pre>
+
 # Speedup Chrome
 Disable Chrome extensions you're not using
 
