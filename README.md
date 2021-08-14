@@ -65,11 +65,12 @@ Tip: You may want to also keep Enable peek (Win+,)
 
 # Exporting/Importing Putty Settings and Sessions
 <pre>
-- Open command prompt as an Administrator
-- regedit /e "%USERPROFILE%\Desktop\putty.reg" HKEY_LOCAL_MACHINE\Software\SimonTatham
-- A putty.reg file should appear on your Desktop
-- Copy to your new PC
-- Double-click the .reg file and it should get imported!
+- Open command prompt as current user (not as Administrator)
+- Type regedit and navigate to HKEY_LOCAL_MACHINE\Software\SimonTatham
+- Right-click and export as putty.reg to your Desktop
+- Copy putty.reg to your new PC
+- Open regedit as current user then import file
+- Done!
 </pre>
 
 # Speedup Chrome
