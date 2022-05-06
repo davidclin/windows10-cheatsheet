@@ -228,3 +228,12 @@ choco install -y curl                   - Client URL command line tool and libra
 
 # Chocolatey Packages
 [Packages](https://chocolatey.org/packages)
+
+
+# Installing WSL2
+- Pre-requisities
+  - Type msinfo32 from the PowerTools search bar and confirm Hyper-V is supported and enabled
+- Installation from Command Prompt (as Administrator)
+  - wsl.exe --install
+  - wsl --set-default-version 2
+- Install a Linux distro from the Microsoft Store 
