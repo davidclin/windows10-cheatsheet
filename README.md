@@ -238,3 +238,5 @@ choco install -y curl                   - Client URL command line tool and libra
   - wsl --set-default-version 2
 - Install a Linux distro from the Microsoft Store
 - Access distro from the Windows Terminal 
+
+For the official site, see [here](https://docs.microsoft.com/en-us/windows/wsl/install) 
