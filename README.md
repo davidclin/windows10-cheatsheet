@@ -233,10 +233,15 @@ choco install -y curl                   - Client URL command line tool and libra
 # Installing WSL2
 - Pre-requisities
   - Type msinfo32 from the PowerTools search bar and confirm Hyper-V is supported and enabled
+  - Or just run the following from PowerShell (as Administrator):
+
+  dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
 - Install WSL from Command Prompt (as Administrator)
   - wsl.exe --install
   - wsl --set-default-version 2
+
 - Install a Linux distro from the Microsoft Store
 - Access distro from the Windows Terminal 
 
-For the official site, see [here](https://docs.microsoft.com/en-us/windows/wsl/install) 
+- Official documentation [here](https://docs.microsoft.com/en-us/windows/wsl/install) 
