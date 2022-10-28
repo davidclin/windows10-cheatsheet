@@ -225,6 +225,7 @@ choco install -y ffmpeg                 - Required for youtube-dl
 choco install -y heidisql		- SQL client
 choco install -y meld			- Visual diff and merge tools. Helps you compare files, directories, and version controlled projects
 choco install -y curl                   - Client URL command line tool and library for transferring data with URLs; good for testing REST APIs
+choco install -y zoomit                 - 
 </pre>
 
 # Chocolatey Packages
@@ -246,3 +247,15 @@ choco install -y curl                   - Client URL command line tool and libra
 - Access distro from the Windows Terminal 
 
 - Official documentation [here](https://docs.microsoft.com/en-us/windows/wsl/install) 
+
+# ZoomIt
+[Download](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit)
+<pre>
+TBD
+</pre>
+
+# Sysinternals
+[Documentation](https://learn.microsoft.com/en-us/sysinternals/)
+<pre>
+TBD
+</pre>
