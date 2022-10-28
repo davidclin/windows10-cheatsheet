@@ -225,7 +225,7 @@ choco install -y ffmpeg                 - Required for youtube-dl
 choco install -y heidisql		- SQL client
 choco install -y meld			- Visual diff and merge tools. Helps you compare files, directories, and version controlled projects
 choco install -y curl                   - Client URL command line tool and library for transferring data with URLs; good for testing REST APIs
-choco install -y zoomit                 - 
+choco install -y zoomit                 - Sysinternals tool used to zoom, annotation, and record screen for presentations
 </pre>
 
 # Chocolatey Packages
