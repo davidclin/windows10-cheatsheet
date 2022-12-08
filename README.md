@@ -259,3 +259,9 @@ TBD
 <pre>
 TBD
 </pre>
+
+# Userful Shortcuts
+<pre>
+Shift + Windows key + [left/right arrow]              Move present window to another monitor
+Shift + Windows Key                           Disables all CAPS if you find yourself in this situation
+</pre>
