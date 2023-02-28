@@ -252,9 +252,9 @@ choco install -y zoomit                 - Sysinternals tool used to zoom, annota
 - From Powershell/Command Prompt
   - msinfo32  (to verify Hyper-V is supported and enabled; Hyper-V is required by WSL)
   - wsl status
+  - wsl --update  (updates WSL kernel version)
   - wsl --list --verbose  (or simply wsl -l -v)
   - wsl --set-default-version 2
-  - wsl --update
   - lsb_release -a  (from Ubuntu running in WSL)
 
 # ZoomIt
