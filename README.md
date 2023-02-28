@@ -234,6 +234,7 @@ choco install -y zoomit                 - Sysinternals tool used to zoom, annota
 
 # Installing WSL2
 - Pre-requisities
+  - WSL 2 is only available in Windows 11 or Windows 10, Version 1903, Build 18362 or later
   - Type msinfo32 from the PowerTools search bar and confirm Hyper-V is supported and enabled
   - Or just run the following from PowerShell (as Administrator):
 
