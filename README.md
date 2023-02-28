@@ -240,8 +240,8 @@ choco install -y zoomit                 - Sysinternals tool used to zoom, annota
   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
 - Install WSL from Command Prompt (as Administrator)
-  - wsl.exe --install
-  - wsl --set-default-version 2
+  - wsl.exe --install             (use if this is your first install)
+  - wsl --set-default-version 2   (to verify, type "wsl -l -v" in Powershell or Windows Command Prompt)
 
 - Install a Linux distro from the Microsoft Store
 - Access distro from the Windows Terminal 
