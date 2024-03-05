@@ -258,6 +258,11 @@ choco install -y zoomit                 - Sysinternals tool used to zoom, annota
   - wsl --set-default-version 2
   - lsb_release -a  (from Ubuntu running in WSL)
 
+ # Updating WSL2
+ - There should be no need for you to update WSL2 provided you have the following setting enabled under the Advanced options settings:
+  ![screenshot](https://github.com/davidclin/windows10-cheatsheet/assets/6853545/04497a84-a231-457e-9b8f-b49481c84995)
+
+
 # ZoomIt
 [Download](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit)
 <pre>
